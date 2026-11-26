@@ -1,0 +1,11 @@
+COMMAND: curl -s https://www.thefugeautospa.com/about/ | script/embed inventory
+TIMESTAMP (UTC): 2026-11-26T03:34:34Z
+--- external scripts (src) ---
+src="/_astro/SiteLayout.astro_astro_type_script_index_0_lang.DayvXenf.js"
+src="https://www.googletagmanager.com/gtag/js?id=G-T44BY6E59S"
+--- iframes ---
+--- inline script count ---
+6
+(count includes external script tags)
+--- SRI integrity attributes ---
+(empty = no SRI)

@@ -1,0 +1,10 @@
+COMMAND: curl -s -X OPTIONS -H 'Origin: https://example.com' -H 'Access-Control-Request-Method: GET' -D - https://www.thefugeautospa.com/
+TIMESTAMP (UTC): 2026-11-26T03:35:35Z
+---
+HTTP/1.1 200 Connection Established
+HTTP/1.1 405 Method Not Allowed
+Access-Control-Allow-Origin: *
+--- plain GET with Origin ---
+HTTP/1.1 200 Connection Established
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *

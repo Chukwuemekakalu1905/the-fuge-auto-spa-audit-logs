@@ -1,0 +1,8 @@
+COMMAND: TLS 1.0/1.1 refusal check via openssl s_client -tls1 / -tls1_1
+TIMESTAMP (UTC): 2026-11-26T03:33:43Z
+--- TLS1.0 ---
+--- TLS1.1 ---
+--- TLS1.2 ---
+New, TLSv1.2, Cipher is ECDHE-ECDSA-CHACHA20-POLY1305
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-ECDSA-CHACHA20-POLY1305

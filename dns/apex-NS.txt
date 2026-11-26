@@ -1,0 +1,8 @@
+COMMAND: dig +noall +answer thefugeautospa.com NS
+TIMESTAMP (UTC): 2026-11-26T03:33:42Z
+---
+thefugeautospa.com.	21600	IN	NS	ns-cloud-a2.googledomains.com.
+thefugeautospa.com.	21600	IN	NS	ns-cloud-a4.googledomains.com.
+thefugeautospa.com.	21600	IN	NS	ns-cloud-a1.googledomains.com.
+thefugeautospa.com.	21600	IN	NS	ns-cloud-a3.googledomains.com.
+(empty output above = no records returned)

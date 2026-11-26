@@ -1,0 +1,67 @@
+COMMAND: per-page security header presence check
+TIMESTAMP (UTC): 2026-11-26T03:35:46Z
+=== / ===
+ABSENT   content-security-policy
+PRESENT  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+PRESENT  x-frame-options: DENY
+PRESENT  x-content-type-options: nosniff
+PRESENT  referrer-policy: strict-origin-when-cross-origin
+PRESENT  permissions-policy: geolocation=(), microphone=(), camera=()
+ABSENT   cross-origin-opener-policy
+ABSENT   cross-origin-embedder-policy
+ABSENT   cross-origin-resource-policy
+PRESENT  Access-Control-Allow-Origin: *
+PRESENT  Server: cloudflare
+PRESENT  Cache-Control: public, max-age=0, must-revalidate
+=== /services/ ===
+ABSENT   content-security-policy
+PRESENT  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+PRESENT  x-frame-options: DENY
+PRESENT  x-content-type-options: nosniff
+PRESENT  referrer-policy: strict-origin-when-cross-origin
+PRESENT  permissions-policy: geolocation=(), microphone=(), camera=()
+ABSENT   cross-origin-opener-policy
+ABSENT   cross-origin-embedder-policy
+ABSENT   cross-origin-resource-policy
+PRESENT  Access-Control-Allow-Origin: *
+PRESENT  Server: cloudflare
+PRESENT  Cache-Control: public, max-age=0, must-revalidate
+=== /book/ ===
+ABSENT   content-security-policy
+PRESENT  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+PRESENT  x-frame-options: DENY
+PRESENT  x-content-type-options: nosniff
+PRESENT  referrer-policy: strict-origin-when-cross-origin
+PRESENT  permissions-policy: geolocation=(), microphone=(), camera=()
+ABSENT   cross-origin-opener-policy
+ABSENT   cross-origin-embedder-policy
+ABSENT   cross-origin-resource-policy
+PRESENT  Access-Control-Allow-Origin: *
+PRESENT  Server: cloudflare
+PRESENT  Cache-Control: public, max-age=0, must-revalidate
+=== /contact/ ===
+ABSENT   content-security-policy
+PRESENT  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+PRESENT  x-frame-options: DENY
+PRESENT  x-content-type-options: nosniff
+PRESENT  referrer-policy: strict-origin-when-cross-origin
+PRESENT  permissions-policy: geolocation=(), microphone=(), camera=()
+ABSENT   cross-origin-opener-policy
+ABSENT   cross-origin-embedder-policy
+ABSENT   cross-origin-resource-policy
+PRESENT  Access-Control-Allow-Origin: *
+PRESENT  Server: cloudflare
+PRESENT  Cache-Control: public, max-age=0, must-revalidate
+=== /reviews/ ===
+ABSENT   content-security-policy
+PRESENT  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+PRESENT  x-frame-options: DENY
+PRESENT  x-content-type-options: nosniff
+PRESENT  referrer-policy: strict-origin-when-cross-origin
+PRESENT  permissions-policy: geolocation=(), microphone=(), camera=()
+ABSENT   cross-origin-opener-policy
+ABSENT   cross-origin-embedder-policy
+ABSENT   cross-origin-resource-policy
+PRESENT  Access-Control-Allow-Origin: *
+PRESENT  Server: cloudflare
+PRESENT  Cache-Control: public, max-age=0, must-revalidate

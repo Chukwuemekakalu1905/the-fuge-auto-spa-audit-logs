@@ -1,0 +1,6 @@
+COMMAND: dig +noall +answer www.thefugeautospa.com A / CNAME
+TIMESTAMP (UTC): 2026-11-26T03:33:42Z
+--- A ---
+www.thefugeautospa.com.	15	IN	A	198.18.15.130
+--- CNAME ---
+www.thefugeautospa.com.	242	IN	CNAME	fugeautospa.pages.dev.

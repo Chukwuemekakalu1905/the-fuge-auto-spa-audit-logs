@@ -1,0 +1,9 @@
+COMMAND: openssl s_client cert details (SANs, key size, validity)
+TIMESTAMP (UTC): 2026-11-26T03:35:36Z
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C = US, O = Google Trust Services, CN = WE1
+            Not Before: Oct 31 03:38:15 2026 GMT
+            Not After : Jan 29 04:38:02 2027 GMT
+                Public-Key: (256 bit)
+                DNS:www.thefugeautospa.com
+    Signature Algorithm: ecdsa-with-SHA256

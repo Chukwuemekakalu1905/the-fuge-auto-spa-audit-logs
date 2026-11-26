@@ -1,0 +1,45 @@
+COMMAND: curl -s -o /dev/null -w '%{http_code} %{size_download} %{content_type}' <path>
+TIMESTAMP (UTC): 2026-11-26T03:34:53Z
+---
+/.env.local -> 200 103597B text/html; charset=utf-8
+/.env.production -> 200 103597B text/html; charset=utf-8
+/.git/logs/HEAD -> 200 103597B text/html; charset=utf-8
+/.svn/entries -> 200 103597B text/html; charset=utf-8
+/.hg/hgrc -> 200 103597B text/html; charset=utf-8
+/composer.json -> 200 103597B text/html; charset=utf-8
+/package.json -> 200 103597B text/html; charset=utf-8
+/package-lock.json -> 200 103597B text/html; charset=utf-8
+/yarn.lock -> 200 103597B text/html; charset=utf-8
+/.npmrc -> 200 103597B text/html; charset=utf-8
+/web.config -> 200 103597B text/html; charset=utf-8
+/phpinfo.php -> 200 103597B text/html; charset=utf-8
+/info.php -> 200 103597B text/html; charset=utf-8
+/test.php -> 200 103597B text/html; charset=utf-8
+/debug -> 200 103597B text/html; charset=utf-8
+/trace -> 200 103597B text/html; charset=utf-8
+/actuator -> 200 103597B text/html; charset=utf-8
+/actuator/env -> 200 103597B text/html; charset=utf-8
+/swagger -> 200 103597B text/html; charset=utf-8
+/api-docs -> 200 103597B text/html; charset=utf-8
+/.well-known/change-password -> 200 103597B text/html; charset=utf-8
+/.well-known/apple-app-site-association -> 200 103597B text/html; charset=utf-8
+/humans.txt -> 200 103597B text/html; charset=utf-8
+/ads.txt -> 200 103597B text/html; charset=utf-8
+/crossdomain.xml -> 200 103597B text/html; charset=utf-8
+/clientaccesspolicy.xml -> 200 103597B text/html; charset=utf-8
+/sitemap_index.xml -> 200 103597B text/html; charset=utf-8
+/feed -> 200 103597B text/html; charset=utf-8
+/rss.xml -> 200 103597B text/html; charset=utf-8
+/old -> 200 103597B text/html; charset=utf-8
+/backup -> 200 103597B text/html; charset=utf-8
+/backups -> 200 103597B text/html; charset=utf-8
+/archive.zip -> 200 103597B text/html; charset=utf-8
+/site.zip -> 200 103597B text/html; charset=utf-8
+/www.zip -> 200 103597B text/html; charset=utf-8
+/index.php.bak -> 200 103597B text/html; charset=utf-8
+/index.html.bak -> 200 103597B text/html; charset=utf-8
+/Thumbs.db -> 200 103597B text/html; charset=utf-8
+/server-status -> 200 103597B text/html; charset=utf-8
+/server-info -> 200 103597B text/html; charset=utf-8
+/.idea/workspace.xml -> 200 103597B text/html; charset=utf-8
+/.vscode/settings.json -> 200 103597B text/html; charset=utf-8

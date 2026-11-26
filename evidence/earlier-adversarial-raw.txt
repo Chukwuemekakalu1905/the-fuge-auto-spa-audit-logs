@@ -1,0 +1,32 @@
+=== ADVERSARIAL PROBE (read-only GET/HEAD) ===
+/.env -> 200 103597B
+/.git/HEAD -> 200 103597B
+/.git/config -> 200 103597B
+/.aws/credentials -> 200 103597B
+/backup.zip -> 200 103597B
+/db.sql -> 200 103597B
+/wp-admin -> 200 103597B
+/admin -> 200 103597B
+/.DS_Store -> 200 103597B
+/config.json -> 200 103597B
+/api/keys -> 200 103597B
+/.well-known/security.txt -> 200 103597B
+/robots.txt -> 200 82B
+
+=== METHODS ===
+OPTIONS -> 405
+
+=== TLS ===
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Verify return code: 0 (ok)
+
+=== COOKIES ===
+none set on homepage
+
+=== FORM ENDPOINTS IN PAGE SOURCE ===
+action="https://api.web3forms.com/submit"
+access_key" value="{{WEB3FORMS_ACCESS_KEY}}" data-astro-cid-zhjzn6ly><
+
+=== EXTERNAL SCRIPTS ===
+src="https://www.google.com/maps?q=The%20Fuge%20Auto%20Spa%2C%20615%20W%20Ray%20Rd%20Suite%20A%2C%20Gilbert%2C%20AZ%2085233&amp;output=embed"
+src="https://www.googletagmanager.com/gtag/js?id=G-T44BY6E59S"

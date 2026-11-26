@@ -1,0 +1,13 @@
+COMMAND: curl -sI -H 'Accept-Encoding: gzip, br' /
+TIMESTAMP (UTC): 2026-11-26T03:35:40Z
+HTTP/1.1 200 Connection Established
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=0, must-revalidate
+Content-Encoding: br
+--- asset (css) ---
+asset: https://www.thefugeautospa.com/_astro/BookingForm.CGuJ3bMR.css
+HTTP/1.1 200 Connection Established
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=31536000, immutable
+ETag: W/"71156ae73a258680aa30da2a21ebda9f"
+Content-Encoding: br

@@ -1,0 +1,18 @@
+COMMAND: curl -s / | grep asset URLs, then curl each + .map
+TIMESTAMP (UTC): 2026-11-26T03:35:27Z
+--- JS/CSS assets on homepage ---
+/_astro/BookingForm.CGuJ3bMR.css
+/_astro/BookingForm.astro_astro_type_script_index_0_lang.WBO2TInu.js
+/_astro/Detailing.BZDpCb2t.css
+/_astro/Logo.D2UUFJsV.css
+/_astro/SiteLayout.MVDU-8uq.css
+/_astro/SiteLayout.astro_astro_type_script_index_0_lang.DayvXenf.js
+/_astro/index.Bzoarqyw.css
+--- .map checks ---
+https://www.thefugeautospa.com/_astro/BookingForm.CGuJ3bMR.css.map -> 200 103597B
+https://www.thefugeautospa.com/_astro/BookingForm.astro_astro_type_script_index_0_lang.WBO2TInu.js.map -> 200 103597B
+https://www.thefugeautospa.com/_astro/Detailing.BZDpCb2t.css.map -> 200 103597B
+https://www.thefugeautospa.com/_astro/Logo.D2UUFJsV.css.map -> 200 103597B
+https://www.thefugeautospa.com/_astro/SiteLayout.MVDU-8uq.css.map -> 200 103597B
+https://www.thefugeautospa.com/_astro/SiteLayout.astro_astro_type_script_index_0_lang.DayvXenf.js.map -> 200 103597B
+https://www.thefugeautospa.com/_astro/index.Bzoarqyw.css.map -> 200 103597B

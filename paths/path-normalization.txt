@@ -1,0 +1,9 @@
+COMMAND: curl -s -o /dev/null -w '%{http_code} %{size_download}' <malformed path> (observation only)
+TIMESTAMP (UTC): 2026-11-26T03:35:41Z
+// -> 200 103597B
+/%2e%2e/ -> 000 0B
+/..;/ -> 200 103597B
+/%2e%2e%2f -> 400 155B
+/services// -> 200 49265B
+/SERVICES/ -> 200 103597B
+/services%2f -> 200 49265B

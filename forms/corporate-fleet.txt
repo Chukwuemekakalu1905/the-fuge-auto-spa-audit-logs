@@ -1,0 +1,25 @@
+COMMAND: curl -s https://www.thefugeautospa.com/corporate-fleet/ | grep form/action/access_key/input extracts
+TIMESTAMP (UTC): 2026-11-26T03:34:28Z
+--- form tags ---
+<form id="fleet-form" class="card fleet-form" action="https://api.web3forms.com/submit" method="POST" data-reveal data-astro-cid-punngjjd>
+--- access_key values ---
+access_key" value="{{WEB3FORMS_ACCESS_KEY}}" data-astro-cid-punngjjd
+--- input fields (name/type) ---
+type="hidden"	name="access_key"
+type="hidden"	name="subject"
+type="hidden"	name="from_name"
+type="hidden"	name="topic"
+type="checkbox"	name="botcheck"
+name="company"	type="text"
+name="name"	type="text"
+name="phone"	type="tel"
+name="email"	type="email"
+type="checkbox"	name="vehicle_types"
+type="checkbox"	name="vehicle_types"
+type="checkbox"	name="vehicle_types"
+type="checkbox"	name="vehicle_types"
+type="checkbox"	name="vehicle_types"
+--- textarea/select ---
+<select id="fleet-size" name="fleet_size" data-astro-cid-punngjjd>
+<select id="fleet-frequency" name="frequency" data-astro-cid-punngjjd>
+<textarea id="fleet-message" name="message" rows="3" placeholder="Vehicle condition, branding wraps, scheduling constraints, what you're hoping for." data-astro-cid-punngjjd>

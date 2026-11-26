@@ -1,0 +1,37 @@
+COMMAND: curl -sI http://thefugeautospa.com/ ; curl -sI https://thefugeautospa.com/ ; curl -sI http://www.thefugeautospa.com/
+TIMESTAMP (UTC): 2026-11-26T03:33:40Z
+--- http apex ---
+HTTP/1.1 301 Moved Permanently
+Age: 0
+X-Contextid: nZswzTvA/V1BJ2S30
+Date: Thu, 26 Nov 2026 03:33:42 GMT
+Location: https://www.thefugeautospa.com
+Server: Squarespace
+Set-Cookie: crumb=BXEQFWwo7EmxN2ZiOTUxYmE5NTMzNTY1ZDkzZTlhNmNkYWUwMDU1;Path=/
+Content-Length: 0
+connection: close
+
+--- https apex ---
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 301 Moved Permanently
+Age: 0
+X-Contextid: W6ooGeDM/KM59GzMi
+Date: Thu, 26 Nov 2026 03:33:43 GMT
+Location: https://www.thefugeautospa.com
+Server: Squarespace
+Set-Cookie: crumb=BWVE810r3TlvMGUzNGMxY2JhNzIwYTQxZjNiMDdlZTE0Y2UxZTQ3;Secure;Path=/
+Content-Length: 0
+
+--- http www ---
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 26 Nov 2026 03:33:43 GMT
+Content-Type: text/html; charset=UTF-8
+alt-svc: h3=":443"; ma=86400
+Location: https://www.thefugeautospa.com/
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=70vJLoFkqCxtqhKY77lPA96%2FSp9R4TFWsB3L6PIHxFNx5IeRip0VeDfMesmuY2T2palUBwgkstikwO5jnMB2gnWwDQwx7fvQwXtOFHH40yIZ62ObYPgSh07VvhigvEwa01uSwtNqUbpFQNt8XNHK%2Bldk%2BA3e"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a605d553f9d2e056-IAD
+Connection: close
+

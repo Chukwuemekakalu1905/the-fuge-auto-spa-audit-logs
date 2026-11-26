@@ -1,0 +1,12 @@
+COMMAND: echo | openssl s_client -connect www.thefugeautospa.com:443 -servername www.thefugeautospa.com
+TIMESTAMP (UTC): 2026-11-26T03:33:43Z
+---
+subject=CN = www.thefugeautospa.com
+issuer=C = US, O = Google Trust Services, CN = WE1
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Verify return code: 0 (ok)
+--- cert dates ---
+notBefore=Oct 31 03:38:15 2026 GMT
+notAfter=Jan 29 04:38:02 2027 GMT
+issuer=C = US, O = Google Trust Services, CN = WE1
+subject=CN = www.thefugeautospa.com

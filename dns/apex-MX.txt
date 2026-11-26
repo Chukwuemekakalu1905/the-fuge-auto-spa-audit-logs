@@ -1,0 +1,9 @@
+COMMAND: dig +noall +answer thefugeautospa.com MX
+TIMESTAMP (UTC): 2026-11-26T03:33:42Z
+---
+thefugeautospa.com.	6268	IN	MX	5 alt1.aspmx.l.google.com.
+thefugeautospa.com.	6268	IN	MX	10 alt3.aspmx.l.google.com.
+thefugeautospa.com.	6268	IN	MX	5 alt2.aspmx.l.google.com.
+thefugeautospa.com.	6268	IN	MX	10 alt4.aspmx.l.google.com.
+thefugeautospa.com.	6268	IN	MX	1 aspmx.l.google.com.
+(empty output above = no records returned)

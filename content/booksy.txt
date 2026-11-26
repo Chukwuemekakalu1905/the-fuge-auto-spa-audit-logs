@@ -1,0 +1,30 @@
+COMMAND: site book page source -> Booksy business link; direct Booksy page fetch attempted; web search snippets for the Booksy listing
+TIMESTAMP (UTC): 2026-11-26T03:36:11Z
+---
+Booksy link found in https://www.thefugeautospa.com/book/ page source:
+  https://booksy.com/en-us/dl/show-business/1786393?utm_medium=c2c_referral
+  widget: https://booksy.com/widget/code.js?id=1786393&country=us&lang=en
+
+Direct fetch of the Booksy business page via text-fetch tool: FAILED (HTTP 400 from upstream). Booksy prices below are from web-search result snippets of Booksy listing pages (crawl dates as shown), NOT from a direct live read of the business page.
+
+--- Search snippets (Booksy listing pages, crawled ~3 days before 2026-11-25) ---
+The Fuge Auto Spa — 615 W Ray Rd, Gilbert, 85233
+  Head Light Restoration   $80.00   40min
+  Clay Bar                 $100.00+ 1h 30min
+  Buff Wax                 $180.00+ 1h
+  Rating shown on one listing snippet: 4.7 (12 reviews)
+
+--- Site's own claims for comparison (from content/reviews.txt, live page source) ---
+Reviews page meta description: "5.0 stars on Booksy, 4.7 on Groupon, and five-star Google reviews"
+Homepage: four review cards each aria-label="Rated 5 out of 5 stars"
+
+--- Site prices for the same services (from content/site-prices.txt + headlight-engine.txt) ---
+Headlight restoration: $80 (site FAQ + detailing page)
+Engine clean: $100 (site)
+Signature Interior Detail: $150 (oversize $225)
+Signature Exterior Detail: $200
+Signature Interior & Exterior: $400
+Platinum detail: $800 sedan / $995 oversize
+Ceramic wax add-on: $150
+
+NOTE (observed): search snippets show Booksy Head Light Restoration at $80.00, matching the site's $80. Snippets are dated crawl copies; a direct live read of the Booksy business page could not be completed in this audit (fetch rejected), so current Booksy prices are recorded as UNVERIFIED-LIVE beyond the snippet evidence above.

@@ -1,0 +1,13 @@
+COMMAND: curl -s https://www.thefugeautospa.com/contact/ | script/embed inventory
+TIMESTAMP (UTC): 2026-11-26T03:34:31Z
+--- external scripts (src) ---
+src="/_astro/BookingForm.astro_astro_type_script_index_0_lang.WBO2TInu.js"
+src="/_astro/SiteLayout.astro_astro_type_script_index_0_lang.DayvXenf.js"
+src="https://www.googletagmanager.com/gtag/js?id=G-T44BY6E59S"
+--- iframes ---
+src="https://www.google.com/maps?q=The%20Fuge%20Auto%20Spa%2C%20615%20W%20Ray%20Rd%20Suite%20A%2C%20Gilbert%2C%20AZ%2085233&amp;output=embed"
+--- inline script count ---
+7
+(count includes external script tags)
+--- SRI integrity attributes ---
+(empty = no SRI)

@@ -1,0 +1,21 @@
+COMMAND: curl -sI https://www.thefugeautospa.com/blog/
+TIMESTAMP (UTC): 2026-11-26T03:33:40Z
+---
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 200 OK
+Date: Thu, 26 Nov 2026 03:33:41 GMT
+Content-Type: text/html; charset=utf-8
+alt-svc: h3=":443"; ma=86400
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+permissions-policy: geolocation=(), microphone=(), camera=()
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-frame-options: DENY
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LXQwWYTSu%2FXqYXU3SiQETTBBVgLHOi52N2XoWe8YM07SbboGtGOo94N4xsVEenIRhR8Uh8wJrED7iiOFEWG8y2OPeSwnx8oaxc9DCQgYTxeIcjBy%2Be5CpCTbP1Z7f7DqBP%2BSSNkXfwf77gv0XCth3YINWTz9"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a605d5484ff4377a-EWR
+

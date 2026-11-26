@@ -1,0 +1,22 @@
+COMMAND: curl -s -o /dev/null -w '%{http_code} %{size_download}' <path> for each path
+TIMESTAMP (UTC): 2026-11-26T03:33:44Z
+---
+/.env -> 200 103597B
+/.git/HEAD -> 200 103597B
+/.git/config -> 200 103597B
+/.aws/credentials -> 200 103597B
+/backup.zip -> 200 103597B
+/db.sql -> 200 103597B
+/wp-admin -> 200 103597B
+/admin -> 200 103597B
+/.DS_Store -> 200 103597B
+/config.json -> 200 103597B
+/api/keys -> 200 103597B
+/.well-known/security.txt -> 200 103597B
+/robots.txt -> 200 82B
+/sitemap.xml -> 200 103597B
+/sitemap-0.xml -> 200 1471B
+/this-page-does-not-exist-xyz123 -> 200 103597B
+/totally/made/up/path -> 200 103597B
+
+NOTE: identical byte size across all paths = catch-all soft-404 serving homepage HTML.

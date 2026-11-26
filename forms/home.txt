@@ -1,0 +1,21 @@
+COMMAND: curl -s https://www.thefugeautospa.com/ | grep form/action/access_key/input extracts
+TIMESTAMP (UTC): 2026-11-26T03:34:24Z
+--- form tags ---
+<form id="quote-form" class="card contact-form" action="https://api.web3forms.com/submit" method="POST" data-reveal data-astro-cid-zhjzn6ly>
+--- access_key values ---
+access_key" value="{{WEB3FORMS_ACCESS_KEY}}" data-astro-cid-zhjzn6ly
+--- input fields (name/type) ---
+type="hidden"	name="access_key"
+type="hidden"	name="subject"
+type="hidden"	name="from_name"
+type="checkbox"	name="botcheck"
+name="name"	type="text"
+name="phone"	type="tel"
+name="email"	type="email"
+name="vehicle_year"	type="text"
+name="vehicle_make"	type="text"
+name="vehicle_model"	type="text"
+--- textarea/select ---
+<select id="veh-type" name="vehicle_type" data-astro-cid-zhjzn6ly>
+<select id="topic" name="topic" data-astro-cid-zhjzn6ly>
+<textarea id="message" name="message" rows="4" placeholder="Anything we should know: condition, timing, what you're hoping for." data-astro-cid-zhjzn6ly>

@@ -1,0 +1,9 @@
+COMMAND: dig TXT <selector>._domainkey.thefugeautospa.com for common selectors
+TIMESTAMP (UTC): 2026-11-26T03:35:36Z
+google: 
+default: 
+brevo: 
+selector1: 
+selector2: 
+mail: 
+k1: 

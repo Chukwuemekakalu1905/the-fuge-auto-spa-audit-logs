@@ -1,0 +1,5 @@
+COMMAND: dig +noall +answer thefugeautospa.com A
+TIMESTAMP (UTC): 2026-11-26T03:33:42Z
+---
+thefugeautospa.com.	15	IN	A	198.18.15.131
+(empty output above = no records returned)

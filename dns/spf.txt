@@ -1,0 +1,6 @@
+COMMAND: dig +short TXT thefugeautospa.com | grep -i spf
+TIMESTAMP (UTC): 2026-11-26T03:33:43Z
+--- all TXT ---
+"google-site-verification=IKkZ5yyN_l6uxhkeEbtDnAfD4ioEWJr4nl68SDC2d64"
+--- spf grep ---
+NO SPF RECORD FOUND

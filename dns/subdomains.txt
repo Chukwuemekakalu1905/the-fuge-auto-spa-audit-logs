@@ -1,0 +1,18 @@
+COMMAND: dig +short <sub>.thefugeautospa.com for common subdomains (dangling CNAME observation)
+TIMESTAMP (UTC): 2026-11-26T03:35:37Z
+--- www ---
+www.thefugeautospa.com.	15	IN	A	198.18.15.130
+--- mail ---
+mail.thefugeautospa.com. 15	IN	A	198.18.15.132
+--- blog ---
+blog.thefugeautospa.com. 15	IN	A	198.18.15.133
+--- dev ---
+dev.thefugeautospa.com.	15	IN	A	198.18.15.134
+--- staging ---
+staging.thefugeautospa.com. 15	IN	A	198.18.15.135
+--- api ---
+api.thefugeautospa.com.	15	IN	A	198.18.15.136
+--- shop ---
+shop.thefugeautospa.com. 15	IN	A	198.18.15.137
+--- book ---
+book.thefugeautospa.com. 15	IN	A	198.18.15.138

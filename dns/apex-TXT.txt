@@ -1,0 +1,5 @@
+COMMAND: dig +noall +answer thefugeautospa.com TXT
+TIMESTAMP (UTC): 2026-11-26T03:33:42Z
+---
+thefugeautospa.com.	6268	IN	TXT	"google-site-verification=IKkZ5yyN_l6uxhkeEbtDnAfD4ioEWJr4nl68SDC2d64"
+(empty output above = no records returned)

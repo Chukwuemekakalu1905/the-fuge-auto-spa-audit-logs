@@ -1,0 +1,17 @@
+COMMAND: curl -s pages | address extract
+TIMESTAMP (UTC): 2026-11-26T03:34:40Z
+--- / ---
+title>Car Wash &amp; Auto Detailing in Gilbert, AZ | The Fuge Auto Spa
+meta name="description" content="A refuge for you and your car: independent full-service car wash, auto detailing, and a lounge worth the wait in Gilbert, AZ. Serving Gilbert &amp; Chandler.">
+meta property="og:title" content="Car Wash &amp; Auto Detailing in Gilbert, AZ | The Fuge Auto Spa">
+meta property="og:description" content="A refuge for you and your car: independent full-service car wash, auto detailing, and a lounge worth the wait in Gilbert, AZ. Serving Gilbert &amp; Chandler.">
+--- /contact/ ---
+title>Location &amp; Contact | The Fuge Auto Spa in Gilbert, AZ
+meta name="description" content="Find us at 615 West Ray Road, Suite A, Gilbert, AZ (corner of Cooper &amp; Ray). Open Mon-Sat 7:30-7 and Sun 8-6. Call 480-299-5771 or send the form.">
+meta property="og:title" content="Location &amp; Contact | The Fuge Auto Spa in Gilbert, AZ">
+meta property="og:description" content="Find us at 615 West Ray Road, Suite A, Gilbert, AZ (corner of Cooper &amp; Ray). Open Mon-Sat 7:30-7 and Sun 8-6. Call 480-299-5771 or send the form.">
+--- /book/ ---
+title>Book a Car Wash Appointment in Gilbert, AZ | The Fuge Auto Spa
+meta name="description" content="Book your car wash appointment in Gilbert, AZ online in a couple of taps. Real-time availability, instant confirmation, and no phone tag, powered by Booksy.">
+meta property="og:title" content="Book a Car Wash Appointment in Gilbert, AZ | The Fuge Auto Spa">
+meta property="og:description" content="Book your car wash appointment in Gilbert, AZ online in a couple of taps. Real-time availability, instant confirmation, and no phone tag, powered by Booksy.">

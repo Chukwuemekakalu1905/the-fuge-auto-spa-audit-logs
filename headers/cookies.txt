@@ -1,0 +1,10 @@
+COMMAND: curl -sI <page> | grep -i set-cookie (all main pages)
+TIMESTAMP (UTC): 2026-11-26T03:35:37Z
+--- / ---
+no Set-Cookie header
+--- /book/ ---
+no Set-Cookie header
+--- /contact/ ---
+no Set-Cookie header
+--- /reviews/ ---
+no Set-Cookie header

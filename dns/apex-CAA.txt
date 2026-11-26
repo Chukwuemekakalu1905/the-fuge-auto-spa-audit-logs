@@ -1,0 +1,4 @@
+COMMAND: dig +noall +answer thefugeautospa.com CAA
+TIMESTAMP (UTC): 2026-11-26T03:33:42Z
+---
+(empty output above = no records returned)

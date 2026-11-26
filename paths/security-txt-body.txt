@@ -1,0 +1,4 @@
+COMMAND: curl -s https://www.thefugeautospa.com/.well-known/security.txt | head -5
+TIMESTAMP (UTC): 2026-11-26T03:33:53Z
+--- first bytes of response body ---
+<!DOCTYPE html><html lang="en" class="no-js"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Car Wash &amp; Auto Detailing in Gilbert, AZ | The Fuge Auto Spa</title><meta name="description" content="A refuge for you and your car: independent full-service car wash, auto detailing, and a lounge worth the wait in Gilbert, AZ. Serving Gilbert &amp

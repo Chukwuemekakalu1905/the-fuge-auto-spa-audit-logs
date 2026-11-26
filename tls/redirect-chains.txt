@@ -1,0 +1,28 @@
+COMMAND: curl -sIL <url> (each hop)
+TIMESTAMP (UTC): 2026-11-26T03:35:33Z
+=== http://thefugeautospa.com/ ===
+HTTP/1.1 301 Moved Permanently
+Location: https://www.thefugeautospa.com
+HTTP/1.1 200 Connection Established
+HTTP/1.1 200 OK
+=== https://thefugeautospa.com/ ===
+HTTP/1.1 200 Connection Established
+HTTP/1.1 301 Moved Permanently
+Location: https://www.thefugeautospa.com
+HTTP/1.1 200 Connection Established
+HTTP/1.1 200 OK
+=== http://www.thefugeautospa.com/ ===
+HTTP/1.1 301 Moved Permanently
+Location: https://www.thefugeautospa.com/
+HTTP/1.1 200 Connection Established
+HTTP/1.1 200 OK
+=== https://www.thefugeautospa.com/services ===
+HTTP/1.1 200 Connection Established
+HTTP/1.1 308 Permanent Redirect
+Location: /services/
+HTTP/1.1 200 OK
+=== https://www.thefugeautospa.com/contact ===
+HTTP/1.1 200 Connection Established
+HTTP/1.1 308 Permanent Redirect
+Location: /contact/
+HTTP/1.1 200 OK

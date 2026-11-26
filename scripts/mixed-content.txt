@@ -1,0 +1,13 @@
+COMMAND: curl -s <page> | grep -oE 'http://[^" ]+' (all main pages)
+TIMESTAMP (UTC): 2026-11-26T03:35:38Z
+--- / ---
+http://www.w3.org/2000/svg
+--- /services/ ---
+http://www.w3.org/2000/svg
+--- /book/ ---
+http://www.w3.org/2000/svg
+--- /contact/ ---
+http://www.w3.org/2000/svg
+--- /reviews/ ---
+http://www.w3.org/2000/svg
+(empty sections = no http:// references)
